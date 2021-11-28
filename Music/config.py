@@ -14,4 +14,4 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TGN:TGN@cluster0.c4yk3.mong
 SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1021022522').split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001436232299'))
 ASS_ID = int(getenv("ASS_ID", '2042279052'))
-OWNER_ID = list(map(int, getenv('OWNER_ID', '1766781111').split()))360').split()))
+OWNER_ID = list(map(int, getenv('OWNER_ID', '1766781111').split())
